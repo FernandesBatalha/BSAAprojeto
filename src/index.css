@@ -1,0 +1,42 @@
+/* src/index.css */
+
+/* Estilos globais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  header div {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    gap: 10px;
+  }
+
+  main {
+    padding: 5px;
+  }
+}

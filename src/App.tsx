@@ -1,7 +1,6 @@
-// src/App.tsx
 import React from 'react';
 import Header from './components/Header';
-import minhaImagem from './assets/New Project.jpg'; // Importe a imagem
+import minhaImagem from './assets/New Project.jpg';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +16,7 @@ const App: React.FC = () => {
             São oito diferentes divisões da B.S.A.A., cada uma responsável por monitorar e atuar em uma diferente parte do mundo. Todas as divisões atuam como Forças Especiais sob a jurisdição das Nações Unidas.
           </p>
         </section>
+        <img src={minhaImagem} alt="Descrição da imagem" style={imageStyle} />
         <section id="services" style={sectionStyle}>
           <h2>Serviços</h2>
           <p>Confira os nossos serviços incríveis.</p>
@@ -25,7 +25,6 @@ const App: React.FC = () => {
           <h2>Contato</h2>
           <p>Entre em contato conosco.</p>
         </section>
-        <img src={minhaImagem} alt="Descrição da imagem" style={imageStyle} />
       </main>
     </div>
   );
@@ -34,26 +33,28 @@ const App: React.FC = () => {
 const mainStyle: React.CSSProperties = {
   padding: '20px',
   display: 'flex',
-  flexDirection: 'column',
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+  alignItems: 'flex-start',
   gap: '20px',
-  position: 'relative',
 };
 
 const sectionStyle: React.CSSProperties = {
   width: '100%',
   maxWidth: '800px',
   textAlign: 'left',
+  flex: '1 1 100%',
+  fontSize: '24px', // Aumentando o tamanho da fonte
+  lineHeight: '1.6', // Melhorando a legibilidade com espaçamento entre linhas
 };
 
 const imageStyle: React.CSSProperties = {
-  position: 'fixed',
-  top: '20%',
-  right: '0',
-  width: '40vw',          // Define a largura da imagem como 40% da largura da viewport
-  maxWidth: '1000px',     // Define uma largura máxima para a imagem
+  width: '40vw',
+  maxWidth: '1000px',
   height: 'auto',
   borderRadius: '8px',
+  flex: '1 1 40%',
 };
 
 export default App;
-

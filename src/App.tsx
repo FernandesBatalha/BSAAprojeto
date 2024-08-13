@@ -19,11 +19,23 @@ const App: React.FC = () => {
         <img src={minhaImagem} alt="Descrição da imagem" style={imageStyle} />
         <section id="services" style={sectionStyle}>
           <h2>Serviços</h2>
-          <p>Confira os nossos serviços incríveis.</p>
+          <p>Atuamos em diversas frentes, desde a neutralização de ameaças biológicas até a realização de missões de resgate em áreas afetadas por ataques bioterroristas. Além disso, investigamos incidentes relacionados ao uso de armas biológicas, trabalhando em conjunto com governos e outras agências para coordenar respostas eficazes. A organização também oferece treinamento especializado para forças de segurança, desenvolve tecnologias de combate ao bioterrorismo e atua no desenvolvimento de estratégias de contenção e proteção contra surtos.</p>
         </section>
         <section id="contact" style={sectionStyle}>
           <h2>Contato</h2>
           <p>Entre em contato conosco.</p>
+          <ul>
+            <li>Chris Redfield - (555) 123-4567</li>
+            <li>Jill Valentine - (555) 234-5678</li>
+            <li>Sheva Alomar - (555) 345-6789</li>
+            <li>Piers Nivans - (555) 456-7890</li>
+            <li>Rebecca Chambers - (555) 567-8901</li>
+            <li>Clive R. O'Brian - (555) 678-9012</li>
+            <li>Jessica Sherawat - (555) 789-0123</li>
+            <li>Keith Lumley - (555) 890-1234</li>
+            <li>Quint Cetcham - (555) 901-2345</li>
+            <li>Parker Luciani - (555) 012-3456</li>
+          </ul>
         </section>
       </main>
     </div>
@@ -58,3 +70,5 @@ const imageStyle: React.CSSProperties = {
 };
 
 export default App;
+
+

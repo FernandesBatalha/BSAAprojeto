@@ -7,6 +7,7 @@ const Header: React.FC = () => {
       <div style={logoStyle}>BSAA</div>
       <nav style={navStyle}>
         <a href="#about">Sobre</a>
+        <a href="#monsters">Monstros</a>
         <a href="#services">Serviços</a>
         <a href="#contact">Contato</a>
       </nav>
@@ -38,4 +39,3 @@ const navStyle: React.CSSProperties = {
 };
 
 export default Header;
-

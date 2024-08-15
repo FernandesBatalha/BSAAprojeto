@@ -21,6 +21,12 @@ const App: React.FC = () => {
           <h2>Serviços</h2>
           <p>Atuamos em diversas frentes, desde a neutralização de ameaças biológicas até a realização de missões de resgate em áreas afetadas por ataques bioterroristas. Além disso, investigamos incidentes relacionados ao uso de armas biológicas, trabalhando em conjunto com governos e outras agências para coordenar respostas eficazes. A organização também oferece treinamento especializado para forças de segurança, desenvolve tecnologias de combate ao bioterrorismo e atua no desenvolvimento de estratégias de contenção e proteção contra surtos.</p>
         </section>
+        <section id="monsters" style={sectionStyle}>
+          <h2>Monstros</h2>
+          <p>Ao longo dos jogos de Resident Evil, a BSAA enfrentou diversas ameaças bioterroristas, incluindo monstros criados por experimentos genéticos. Em Resident Evil 5, Chris Redfield e Sheva Alomar combateram o Uroboros, um parasita que transformava seus hospedeiros em mutantes poderosos. Também enfrentaram os Majini, aldeões infectados pelo parasita Las Plagas, e o Executioner Majini, um inimigo imponente e armado.
+
+Em Resident Evil 6, a BSAA lutou contra o Haos, uma criatura gigantesca criada com o C-vírus, além dos J'avo, soldados humanos que se transformavam em mutantes adaptáveis. Eles também enfrentaram o Ogroman, um monstro gigante, e Iluzija, uma serpente camuflada mortal. Em Revelations 2, um membro da própria BSAA, Pedro Fernandez, foi infectado e se transformou em um mutante, destacando o risco constante que a organização enfrenta em sua luta contra o bioterrorismo.</p>
+        </section>
         <section id="contact" style={sectionStyle}>
           <h2>Contato</h2>
           <p>Entre em contato conosco.</p>
@@ -31,7 +37,7 @@ const App: React.FC = () => {
             <li>Piers Nivans - (555) 456-7890</li>
             <li>Rebecca Chambers - (555) 567-8901</li>
             <li>Clive R. O'Brian - (555) 678-9012</li>
-            <li>Jessica Sherawat - (555) 789-0123</li>
+            <li>Jessica Sherawat - (555) 789-0123)</li>
             <li>Keith Lumley - (555) 890-1234</li>
             <li>Quint Cetcham - (555) 901-2345</li>
             <li>Parker Luciani - (555) 012-3456</li>
